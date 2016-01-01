@@ -1,7 +1,4 @@
-import Test.Hspec
+import CalculatorSpecs
 
 main :: IO ()
-main = hspec $ 
-    describe "Example test" $ 
-        it "passed" $ 
-            ("a"::String) `shouldBe` ("a"::String)
+main = testCalculator
