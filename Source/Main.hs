@@ -2,5 +2,5 @@ import Calculator
 
 main :: IO ()
 main = do
-        exp <- getContents
+        exp <- getLine
         print $ calculate exp
