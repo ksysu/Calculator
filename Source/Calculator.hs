@@ -1,4 +1,6 @@
 module Calculator where
 
+import Data.List.Split
+
 calculate :: String -> Double
-calculate = read 
+calculate exp = read $ ((splitOn "+" exp)!!0)
