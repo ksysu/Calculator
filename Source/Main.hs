@@ -1,2 +1,6 @@
+import Calculator
+
 main :: IO ()
-main = return ()
+main = do
+        exp <- getContents
+        print $ calculate exp
