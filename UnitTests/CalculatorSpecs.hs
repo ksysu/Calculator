@@ -12,4 +12,6 @@ testCalculator = hspec $
             calculate "10" `shouldBe` (10::Double)
         it "1+0=1" $
             calculate "1+0" `shouldBe` (1::Double)
+        it "1+1=2" $
+            calculate "1+1" `shouldBe` (2::Double)
             
